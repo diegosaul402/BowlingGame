@@ -10,7 +10,7 @@ class BowlingKata
     @rolls << current_roll
   end
 
-  def score()
+  def score
     current_frame = 0
     score = 0
     @roll_index = 0
@@ -28,7 +28,6 @@ class BowlingKata
         @roll_index += 2
         current_frame += 1
       end
-      puts score
     end
     score
   end
